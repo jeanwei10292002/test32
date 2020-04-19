@@ -10,7 +10,9 @@ import UIKit
 
 class imageViewController: UIViewController {
 
+    
     @IBOutlet weak var imageview: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -13,6 +13,8 @@
 		64401F88244C30AC0096303C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64401F86244C30AC0096303C /* Main.storyboard */; };
 		64401F8A244C30AD0096303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64401F89244C30AD0096303C /* Assets.xcassets */; };
 		64401F8D244C30AD0096303C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64401F8B244C30AD0096303C /* LaunchScreen.storyboard */; };
+		64401F95244C30D80096303C /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64401F94244C30D80096303C /* imageViewController.swift */; };
+		64401F9B244C31B70096303C /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64401F9A244C31B70096303C /* menuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		64401F89244C30AD0096303C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64401F8C244C30AD0096303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64401F8E244C30AD0096303C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64401F94244C30D80096303C /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		64401F9A244C31B70096303C /* menuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				64401F82244C30AC0096303C /* SceneDelegate.swift */,
 				64401F84244C30AC0096303C /* ViewController.swift */,
 				64401F86244C30AC0096303C /* Main.storyboard */,
+				64401F94244C30D80096303C /* imageViewController.swift */,
+				64401F9A244C31B70096303C /* menuTableViewController.swift */,
 				64401F89244C30AD0096303C /* Assets.xcassets */,
 				64401F8B244C30AD0096303C /* LaunchScreen.storyboard */,
 				64401F8E244C30AD0096303C /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				64401F85244C30AC0096303C /* ViewController.swift in Sources */,
 				64401F81244C30AC0096303C /* AppDelegate.swift in Sources */,
+				64401F95244C30D80096303C /* imageViewController.swift in Sources */,
 				64401F83244C30AC0096303C /* SceneDelegate.swift in Sources */,
+				64401F9B244C31B70096303C /* menuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
